@@ -47,7 +47,7 @@ if web_apps == "Exploratory Data Analysis":
       
 
     column_type = st.sidebar.selectbox('Select Data Type',
-                                       ("Numerical", "Categorical", "Bool", "Date"))
+                                       ("Numerical", "Categorical", "Bool"))
 
     if column_type == "Numerical":
       numerical_column = st.sidebar.selectbox(
@@ -156,7 +156,7 @@ if web_apps == "Exploratory Data Analysis":
       ax.set_ylabel("Counts")
       ax.set_xlabel(bar_xtitle)
       ax.set_xticks([0, 1])
-      ax.set_xticklabels(labels = ["True", "False"], rotation=90)
+      ax.set_xticklabels(labels = ["False", "True"], rotation=90)
       st.pyplot(fig)
       filename = "plot.png"
       fig.savefig(filename,dpi = 300)
