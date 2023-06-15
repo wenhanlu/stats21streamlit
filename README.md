@@ -13,3 +13,5 @@ By selecting "Numerical" from the dropdown menu and choosing a column name, a fi
 ### Categorical Variables
 
 By selecting "Categorical" or "Boolean" from the same dropdown and choosing a column, a table with the proportions of each category will be displayed alongside a bar graph with adjustable opacity, bar color, edge colors, and title names. These graphs can also be downloaded for later use. 
+
+https://wenhanlu-stats21streamlit-app-kdv7cb.streamlit.app/
